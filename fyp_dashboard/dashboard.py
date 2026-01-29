@@ -18,7 +18,8 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import sys
 from pathlib import Path
-
+DATA_PATH = os.path.join("data","canteen_labeled_enhanced.csv")
+df=pd.read_csv(DATA_PATH)
 # Import existing utilities
 from utils.helpers import (
     load_models, 
