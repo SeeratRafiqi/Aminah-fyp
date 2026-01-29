@@ -3,6 +3,6 @@ pandas
 numpy
 scikit-learn  # ← Changed from 1.4.0
 plotly
-tensorflow
+tensorflow-cpu
 Pillow
 streamlit-aggrid
