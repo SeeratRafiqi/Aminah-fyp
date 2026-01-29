@@ -9,7 +9,7 @@ Single-file dashboard with:
 - Bordered containers
 - Clean typography (no emojis in production UI)
 """
-
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
