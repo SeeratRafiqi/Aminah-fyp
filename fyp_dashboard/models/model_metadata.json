@@ -1,0 +1,29 @@
+{
+    "model_type": "Random Forest Classifier",
+    "n_estimators": 100,
+    "max_depth": 10,
+    "features_count": 17,
+    "training_accuracy": 0.98,
+    "test_accuracy": 0.98,
+    "training_date": "2026-01-27 02:09:09",
+    "dataset_size": 500,
+    "features_used": [
+        "WALL_2023",
+        "WIRING_2023",
+        "PILLAR_2023",
+        "PAINT_2023",
+        "WALL_AVG",
+        "WIRING_AVG",
+        "PILLAR_AVG",
+        "PAINT_AVG",
+        "WALL_TREND",
+        "WIRING_TREND",
+        "PILLAR_TREND",
+        "PAINT_TREND",
+        "BUILDING_AGE",
+        "TOTAL_RISK_SCORE",
+        "ENROL_JUN23",
+        "TEACHER_JUN23",
+        "RAPID_DETERIORATION"
+    ]
+}
